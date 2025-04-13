@@ -38,106 +38,120 @@
 |      Brown Bess Musket      |                   | BPRif   | CE_Gun_BrownBessAug                | MusketBall    |                |           |
 |       Ferguson Rifle        |                   | BPRif   | CE_Gun_FergusonRifle               | .62           | Breach_Loading |           |
 |      Flintlock WallGun      |                   | BPRif   | CE_Gun_FlintlockWallGun            | MiniCanonBall | Large Caliber  |           |
-|                             |                   |         |                                    |               |                |           |
+|      Springfield_1812       |                   | GGCW    |                                    |               |                |           |
 
 ###### Early Revolvers & Pistols
 
-|           Gun            | Defname                             | Caliber              | Research Overhaul                   | Mod     | Research    | Tag             | Remarque    |
-| :----------------------: | ----------------------------------- | -------------------- | ----------------------------------- | ------- | ----------- | --------------- | ----------- |
-|       Colt Walker        | CE_Gun_WalkerBP                     | .44                  | Single_Action                       | BPRev   | Stage1R_BP  | FrontierGunT1   |             |
-| Colt Walker 1847 Silver  | CGF1_MWP_Colt_M1847_Walker_Silver_  | .44                  | Single_Action                       | GGSP    |             |                 |             |
-|    Colt Dragoon 1848     | CGF1_MWP_Colt_M1848_Dragoon_        | .44                  | Single_Action                       | GGCW    |             |                 |             |
-| Colt Dragoon 1848_nickel | CGF1_MWP_Colt_M1848_Dragoon_Nickel_ | .44                  | Single_Action                       | GGCW    |             |                 |             |
-|      Colt Navy 1851      | CGF1_MWP_Colt_M1851_Navy_           | .36                  | Single_Action                       | GGCW    |             |                 |             |
-|      Colt Navy 1851      | CE_Gun_Colt1851Navy                 | .36                  | Single_Action                       | BPRev   | Stage1R_BP  | FrontierGunT1   |             |
-|      .36 Pepperbox       | CE_Gun_36Pepperbox                  | .36                  | Double_Action                       | BPRev   | Stage1R_BP  | FrontierGunT1   |             |
-|      Starr Revolver      | CE_Gun_StarrRevolver                | .44                  | Double_Action                       | BPRev   | Stage2R_BP  | FrontierGunT1   |             |
-|      Walch Revolver      | CE_Gun_WalchRevolver                | .36                  | Double_Action                       | BPrev   | Stage2R_BP  | FrontierGunT1   |             |
-|      LeMat Revolver      | CE_Gun_LeMatRevolverBP              | .44/10gauge          | Double_Action                       | BPRev   | Stage2R_BP  | FrontierGunT2   | underbarrel |
-|  LeMat Revolver Silver   |                                     |                      |                                     | GGSP    |             |                 |             |
-|    Spiller&Burr 1862     | CGF1_MWP_SpillerBurr_M1862_         | .36                  | Single_Action                       | GGCW    |             |                 |             |
-|   Colt SAA Peacemaker    | CE_Gun_ColtSingleActionArmy1P       | .45Colt              | Single_Action<br>Metallic_Cartridge | CECow   |             | FrontierGunT2   |             |
-|      Colt Open Top       | CE_Gun_OpenTop                      | .44 Henry            | Metallic Cartridge<br>Single_Action | CECow   |             | FrontierGunT1   |             |
-|    Remington_NewArmy     | CE_Gun_Remington1875a               | .44-40               | Single_Action<br>Metallic_Cartridge | CECow   |             | FrontierGunT2   |             |
-|     RemingtonNewArmy     | CE_Gun_RemingtonNewArmy             | .45Colt              | Single_Action<br>Metallic_Cartridge | BPRev   | Stage2R_BP  | FrontierGunT2   |             |
-|        Colt M1878        | CE_Gun_Colt1878a                    | .45Colt              | Metallic_Cartridge<br>Single_Action | CECow   | Gunsmithing |                 |             |
-|  S&W_Model_3_Schofield   | CE_Gun_SWModel3Scofield1P           | .45Schofield         | Metallic_Cartridge<br>Single_Action | CECow   |             | FrontierGunT2   |             |
-|    S&W_Model3_Russian    | CE_Gun_SWModel3Rus                  | .44 Russian          | Metallic_Cartridge<br>Single_Action | CZAR    | Gunsmithing | FrontierGunT2   |             |
-|       Nagant M1895       | CE_Gun_NagantM1895a                 | 7.62x38mmR<br>.32ACP | Industrial_Ammo<br>Double_Action    | CZAR    | Gunsmithing | IndustrialGunT1 |             |
-|       NagantM1895B       | CE_Gun_NagantM1895b                 | 7.62x38mmR<br>.32ACP | Industrial_Ammo<br>Double_Action    | CZAR    | Gunsmithing | IndustrialGunT1 | Suppressor  |
-|      2-Bore Pistol       | CE_Gun_LilDuce                      | 2Bore                | High_Caliber<br>Muzzle_Loading      | CE2Bore |             | FrontierGunT1   |             |
+|            Gun             | Defname                             | Caliber              | Research Overhaul                   | Mod     | Research    | Tag             | Remarque    |
+| :------------------------: | ----------------------------------- | -------------------- | ----------------------------------- | ------- | ----------- | --------------- | ----------- |
+|        Colt Walker         | CE_Gun_WalkerBP                     | .44                  | Single_Action                       | BPRev   | Stage1R_BP  | FrontierGunT1   |             |
+|  Colt Walker 1847 Silver   | CGF1_MWP_Colt_M1847_Walker_Silver_  | .44                  | Single_Action                       | GGSP    |             |                 |             |
+|     Colt Dragoon 1848      | CGF1_MWP_Colt_M1848_Dragoon_        | .44                  | Single_Action                       | GGCW    |             |                 |             |
+|  Colt Dragoon 1848_nickel  | CGF1_MWP_Colt_M1848_Dragoon_Nickel_ | .44                  | Single_Action                       | GGCW    |             |                 |             |
+|       Colt Navy 1851       | CGF1_MWP_Colt_M1851_Navy_           | .36                  | Single_Action                       | GGCW    |             |                 |             |
+| Colt Navy 1851 USMarshall  | CGF1_MWP_Colt_M1851_Navy_           | .36                  | Single_Action                       | GGCW    |             |                 |             |
+|       Colt Navy 1851       | CE_Gun_Colt1851Navy                 | .36                  | Single_Action                       | BPRev   | Stage1R_BP  | FrontierGunT1   |             |
+|       .36 Pepperbox        | CE_Gun_36Pepperbox                  | .36                  | Double_Action                       | BPRev   | Stage1R_BP  | FrontierGunT1   |             |
+|       Starr Revolver       | CE_Gun_StarrRevolver                | .44                  | Double_Action                       | BPRev   | Stage2R_BP  | FrontierGunT1   |             |
+|       Walch Revolver       | CE_Gun_WalchRevolver                | .36                  | Double_Action                       | BPrev   | Stage2R_BP  | FrontierGunT1   |             |
+|       LeMat Revolver       | CE_Gun_LeMatRevolverBP              | .44/10gauge          | Double_Action                       | BPRev   | Stage2R_BP  | FrontierGunT2   | underbarrel |
+|   LeMat Revolver Silver    |                                     |                      |                                     | GGSP    |             |                 |             |
+|       Colt Army 1860       |                                     | .44                  |                                     | GGCW    |             |                 |             |
+|   Colt Army 1860 Nickel    |                                     | .44                  |                                     | GGcw    |             |                 |             |
+|    Colt Army Navy 1861     |                                     | .44                  |                                     | GGCW    |             |                 |             |
+| Colt Army Navy 1861 Nickel |                                     | .44                  |                                     | GGcw    |             |                 |             |
+|     Spiller&Burr 1862      | CGF1_MWP_SpillerBurr_M1862_         | .36                  | Single_Action                       | GGCW    |             |                 |             |
+|    Colt SAA Peacemaker     | CE_Gun_ColtSingleActionArmy1P       | .45Colt<br>.44-40    | Single_Action<br>Metallic_Cartridge | CECow   |             | FrontierGunT2   |             |
+|       Colt Open Top        | CE_Gun_OpenTop                      | .44 Henry            | Metallic Cartridge<br>Single_Action | CECow   |             | FrontierGunT1   |             |
+|     Remington_NewArmy      | CE_Gun_Remington1875a               | .44-40               | Single_Action<br>Metallic_Cartridge | CECow   |             | FrontierGunT2   |             |
+|      RemingtonNewArmy      | CE_Gun_RemingtonNewArmy             | .45Colt              | Single_Action<br>Metallic_Cartridge | BPRev   | Stage2R_BP  | FrontierGunT2   |             |
+|         Colt M1878         | CE_Gun_Colt1878a                    | .45Colt              | Metallic_Cartridge<br>Single_Action | CECow   | Gunsmithing |                 |             |
+|   S&W_Model_3_Schofield    | CE_Gun_SWModel3Scofield1P           | .45Schofield         | Metallic_Cartridge<br>Single_Action | CECow   |             | FrontierGunT2   |             |
+|     S&W_Model3_Russian     | CE_Gun_SWModel3Rus                  | .44 Russian          | Metallic_Cartridge<br>Single_Action | CZAR    | Gunsmithing | FrontierGunT2   |             |
+|        Nagant M1895        | CE_Gun_NagantM1895a                 | 7.62x38mmR<br>.32ACP | Industrial_Ammo<br>Double_Action    | CZAR    | Gunsmithing | IndustrialGunT1 |             |
+|        NagantM1895B        | CE_Gun_NagantM1895b                 | 7.62x38mmR<br>.32ACP | Industrial_Ammo<br>Double_Action    | CZAR    | Gunsmithing | IndustrialGunT1 | Suppressor  |
+|       2-Bore Pistol        | CE_Gun_LilDuce                      | 2Bore                | High_Caliber<br>Muzzle_Loading      | CE2Bore |             | FrontierGunT1   |             |
 
-
-   
+  
 ###### Early Rifles & Carbines
 
-|             Gun              | Defname                              | GRO                                          | Mod      | Caliber              | Research         | Tag             | Remarque |
-| :--------------------------: | ------------------------------------ | -------------------------------------------- | -------- | -------------------- | ---------------- | --------------- | -------- |
-|         Plains Rifle         | CE_Gun_PlainsRifle                   | Muzzle_Loading                               | BPrif    | .50Ball              | Stage1Rifle_BP   | FrontierRifleT1 |          |
-|        Smith Carbine         | CE_Gun_SmithCarbine                  | Breach_Loading                               | BPRif    | .50Smith             | Stage2Rifle_BP   | FrontierRifleT1 |          |
-|         Hall Carbine         | CE_Gun_Hall                          | Breach_Loading                               | BPRif    | .65Ball              | Stage2Rifle_BP   | FrontierRifleT1 |          |
-|       Harmonica Rifle        | CE_Gun_Harmonica                     | Breach_Loading                               | BPRif    | .50Ball              | Stage2Rifle_BP   | FrontierRifleT1 |          |
-|     Colt Ring Rifle_1841     | CE_Gun_ColtRifle                     | SingleAction<br>Lever_Action                 | BPRev    | .44                  | Stage1R_BP       | FrontierRifleT1 |          |
-|  Colt Ring Lever Rifle_1841  |                                      |                                              | GGCW     |                      |                  |                 |          |
-|    Mississippi Rifle 1841    | CE_Gun_Mississippi                   | Breach_Loading<br>Percussion Cap             | BPRif    | .58Ball              | Stage2Rifle_BP   | FrontierRifleT1 |          |
-|     Springfield1842_bayo     | CE_Gun_1842Musket                    | Muzzle_Loading<br>PercussionCap              | BPRif    | .65Ball              | Stage1Rifle_BP   | FrontierRifleT1 |          |
-|      Kammerlader_M/1855      | CE_Gun_Kammerlader                   | Breach_Loading                               | BPBonus  | .65Ball              | Stage2Rifle_BP   |                 |          |
-|      Springfield M1855       |                                      |                                              |          |                      |                  |                 |          |
-|       Maynard Carbine        |                                      |                                              |          |                      |                  |                 |          |
-|  Colt Revolving Rifle_1855   |                                      | SingleAction                                 | GGCW     |                      |                  |                 |          |
-|  Colt Revolving Rifle_1855   |                                      |                                              | WWF      |                      |                  |                 |          |
-|      Sharps Rifle 1859       |                                      |                                              | GGCW     |                      |                  |                 |          |
-|     Sharps Carbine 1859      |                                      |                                              | GGCW     |                      |                  |                 |          |
-|   Sharps Rifle 1859_Scoped   |                                      |                                              | GGCW     |                      |                  |                 |          |
-|    Burnside Carbine 1860     |                                      |                                              | GGCW     |                      |                  |                 |          |
-|      Spencer Rifle 1860      |                                      |                                              | GGCW     |                      |                  |                 |          |
-|     Spencer Carbine 1860     |                                      |                                              | WWF      |                      |                  |                 |          |
-|     Spencer Carbine 1860     |                                      |                                              | GGCW     |                      |                  |                 |          |
-|          Henry 1860          | CE_Gun_HenryModel1860C               | Metallic_Cartridge<br>Lever_Action           | CECow    | .44Henry             | Gunsmithing      | FrontierRifleT2 |          |
-|      Henry 1860_Scoped       |                                      |                                              | GGCV     |                      |                  |                 |          |
-|       Springfield 1861       | CE_Gun_1861Rilfe                     | Muzzle_Loading                               | BPRif    | .58 Minié            | Stage1Rifle_BP   | FrontierRifleT1 |          |
-|         Enfield P-53         |                                      |                                              |          |                      |                  |                 |          |
-|     Richmond Rifle 1863      |                                      |                                              | GGCW     |                      |                  |                 |          |
-|     Sharps Carbine M1863     |                                      |                                              | GGCW     |                      |                  |                 |          |
-|      Springfield M1863       |                                      |                                              |          |                      |                  |                 |          |
-|  Winchester 1866 YellowBoy   |                                      |                                              | VWF      |                      |                  |                 |          |
-|      Spencer Rifle 1871      | CE_Gun_SpencerRifle                  |                                              | CECow    | .56-56 Spencer       | Gunsmithing      | FrontierRifleT2 |          |
-|       Winchester 1873        | CE_Gun_WinchesterModel1873C          |                                              | CECow    | .44-40               | Gunsmithing      | FrontierRifleT2 |          |
-|  Springfield Trapdoor 1873   | CE_Gun_SpringfieldTrapDoorModel1873R |                                              | CECow    | .45-70               | Gunsmithing      | FrontierRifleT2 |          |
-|         Sharps 1874          |                                      |                                              | WWF      |                      |                  | FrontierRifleT2 |          |
-|    Remington 1875 Carbine    |                                      |                                              | CECow    | .44-40               |                  |                 |          |
-|        Evans Carbine         | CE_Gun_NewModelEvansCarbineC         |                                              | CECow    | .44-40               | Gunsmithing      | FrontierRifleT2 |          |
-| Whitney-Burgess Carbine 1878 | CE_Gun_Whitney-Burgess               |                                              | CECow    | .45-70               | Gunsmithing      | FrontierRifleT2 |          |
-|       Winchester 1886        | CE_Gun_WinchesterModel1886C          |                                              | CECow    | .45-70               | Gunsmithing      | FrontierRifleT2 |          |
-|  Winchester 1892 'ElTigre'   |                                      |                                              |          | .44.-40              |                  |                 |          |
-|      Krags-Jorgensen US      |                                      |                                              | WWF      |                      |                  |                 |          |
-|     1892KragMagnumHunter     | Antique_1829Krag                     |                                              | CEAF     | .300Winchester       | PrecisionRifling | FrontierRifleT1 |          |
-|         Marlin 1894c         | CE_Gun_Aug_Marlin                    |                                              | CE357    | .357 / .38SP         | Gunsmithing      | FrontierRifleT2 |          |
-|       Winchester 1894        |                                      |                                              | CEGuns   |                      |                  |                 |          |
-|       Winchester 1895        |                                      |                                              | WWF      | .30-40Krag<br>.30-06 |                  |                 |          |
-|   Winchester1895_RU_short    | CE_Gun_Win1895b                      |                                              | CZAR     | 7.62x54mmR           | Gunsmithing      | FrontierRifleT3 |          |
-|      Winchester1895_RU       | CE_Gun_Win1895a                      |                                              | CZAR     | 7.62x54mmR           | Gunsmithing      | FrontierRifleT3 |          |
-|        Martini Henry         | Antique_Martini                      |                                              | CEAF     | .577/450             | Gunsmithing      | FrontierRifleT2 |          |
-|        2-Bore Musket         | CE_Gun_2BoreMusket                   | Large_Caliber                                | 2bore    | 2Bore                | Machining        | FrontierRifleT2 |          |
-|         ElephantGun          | Antique_ElephantGun                  | Large_Caliber<br>Breech_Loading              | CEAF     | .600 Nitro           | Gunsmithing      | FrontierRifleT1 |          |
-|       Whitworth Sniper       | CE_Gun_Whitworth                     | Muzzle_Loading                               | BPRif    | .451                 | Stage1Rifle_BP   | FrontierSniper  | Sniper   |
-|  SharpsBuffaloRifle_Sniper   | Antique_Sharps                       | Simple_Scope<br>Metallic_Cartridge           | CEAF     | .45-70               | Gunsmithing      | FrontierSniper  | Sniper   |
-|  SharpsBuffaloRifle_Sniper   | CE_Sharps_45120a                     | Simple_Scope<br>Metallic_Cartridge           | CECow    | .45-120              | Gunsmithing      | FrontierSniper  | Sniper   |
-|      ElephantGunSniper       | Antique_ElephantGunScope             | Large_Caliber<br>Simple_Scope                | CEAF     | .600 Nitro           | Gunsmithing      | FrontierSniper  | Sniper   |
-|      Winchester1886_exp      | CE_Gun_WinchesterModel1886D          | Lever_Action<br>Lenses<br>Metallic Cartridge | CECow    | .50-110              | Gunsmithing      | FrontierSniper  | Sights   |
-|           Wall Gun           |                                      |                                              | CEArmory |                      |                  |                 |          |
-|       Belgium Wall Gun       | CE_Gun_BelWallGun                    | Breach_Loading<br>Large_Caliber              | BPRif    | .75Hex               | Stage2Rifle_BP   | FrontierAM      | Bipod    |
-|          Gana-Krnka          | CE_Gun_Krip_GanaKrnka                | Large_Caliber                                | CZAR     | .203x95R             | Gunsmithing      | FrontierAM      |          |
+|                                       |                                      |                      |                                                                       |          |                  |                 |          |
+| :-----------------------------------: | ------------------------------------ | -------------------- | --------------------------------------------------------------------- | -------- | ---------------- | --------------- | -------- |
+|                  Gun                  | Defname                              | Caliber              | GRO                                                                   | Mod      | Research         | Tag             | Remarque |
+|             Plains Rifle              | CE_Gun_PlainsRifle                   | .50Ball              | Muzzle_Loading                                                        | BPrif    | Stage1Rifle_BP   | FrontierRifleT1 |          |
+|             Smith Carbine             | CE_Gun_SmithCarbine                  | .50Smith             | Breach_Loading                                                        | BPRif    | Stage2Rifle_BP   | FrontierRifleT1 |          |
+|             Hall Carbine              | CE_Gun_Hall                          | .65Ball              | Breach_Loading                                                        | BPRif    | Stage2Rifle_BP   | FrontierRifleT1 |          |
+|            Harmonica Rifle            | CE_Gun_Harmonica                     | .50Ball              | Breach_Loading                                                        | BPRif    | Stage2Rifle_BP   | FrontierRifleT1 |          |
+|         Colt Ring Rifle_1841          | CE_Gun_ColtRifle                     | .44                  | SingleAction<br>Lever_Action                                          | BPRev    | Stage1R_BP       | FrontierRifleT1 |          |
+|        Mississippi Rifle 1841         | CE_Gun_Mississippi                   | .58Ball              | Breach_Loading<br>Percussion Cap                                      | BPRif    | Stage2Rifle_BP   | FrontierRifleT1 |          |
+|           Springfield 1842            | CE_Gun_1842Musket                    |                      |                                                                       | BPrif    |                  |                 |          |
+|         Springfield1842_bayo          | CE_Gun_1842Musket                    | .65Ball              | Muzzle_Loading<br>PercussionCap                                       | BPRif    | Stage1Rifle_BP   | FrontierRifleT1 |          |
+|            Maynard Carbine            | CGF1_MWP_Maynard_M1851_Carbine_      | .50Ball              | BreachLoading<br>PercussionCap<br>                                    | GGCW     |                  |                 |          |
+|          Kammerlader_M/1855           | CE_Gun_Kammerlader                   | .65Ball              | Breach_Loading<br>PercussionCap                                       | BPBonus  | Stage2Rifle_BP   |                 |          |
+|           Springfield M1855           |                                      |                      |                                                                       |          |                  |                 |          |
+|       Colt Revolving Rifle_1855       | CGF1_MWP_Colt_M1855_RevolvingRifle_  | .44                  | SingleAction<br>PercussionCap                                         | GGCW     |                  |                 |          |
+|       Colt Revolving Rifle_1855       |                                      |                      |                                                                       | WWF      |                  |                 |          |
+|           Sharps Rifle 1859           | CGF1_MWP_Sharps_M1859_Rifle_         | .52                  | Breachloading<br>Percussion Cap                                       | GGCW     |                  |                 |          |
+|          Sharps Carbine 1859          | CGF1_MWP_Sharps_M1859_Carbine_       | .52                  | BreechLoading<br>Percussion Cap                                       | GGCW     |                  |                 |          |
+|       Sharps Rifle 1859_Scoped        | CGF1_MWP_Sharps_M1859_Sniper_        | .52                  | BreechLoading<br>Percussion Cap                                       | GGCW     |                  |                 |          |
+|         Burnside Carbine 1860         | CGF1_MWP_Burnside_M1860_Carbine_     | .54                  | BreechLoading<br>Percussion Cap                                       | GGCW     |                  |                 |          |
+|     Spencer_Repeating_Rifle_1860      | CGF1_MWP_Spencer_M1860_Rifle_        | .56-56Spencer        | BreechLoading<br>Percussion Cap<br>Metallic_Cartridges<br>LeverAction | GGCW     |                  |                 |          |
+|         Spencer Carbine 1860          | CGF1_MWP_Spencer_M1860_Carbine_      | .56-56Spencer        | BreechLoading<br>Percussion Cap<br>Metallic_Cartridges<br>LeverAction | GGCW     |                  |                 |          |
+|              Henry 1860               | CE_Gun_HenryModel1860C               | .44Henry             | Metallic_Cartridge<br>Lever_Action<br>PercussionCap                   | CECow    | Gunsmithing      | FrontierRifleT2 |          |
+|           Henry 1860_Scoped           | CGF1_MWP_Henry_M1860_Sniper_         | .44Henry             | Simple Scopes<br>Metallic Cartridge<br>PercussionCap<br>Lever Action  | GGCV     |                  |                 |          |
+|           Springfield 1861            | CE_Gun_1861Rilfe                     | .58 Minié            | Muzzle_Loading<br>Percussion Cap                                      | BPRif    | Stage1Rifle_BP   | FrontierRifleT1 |          |
+|          Richmond Rifle 1863          | CGF1_MWP_Richmond_M1863_             | .54                  | Muzzle Loading<br>Percussion Cap                                      | GGCW     |                  |                 |          |
+|          Sharps Rifle M1863           | CGF1_MWP_Sharps_M1863_Rifle_         | .52                  | BreechLoading<br>Percussion Cap                                       | GGCW     |                  |                 |          |
+|         Sharps Carbine M1863          | CGF1_MWP_Sharps_M1863_Carbine_       | .52                  | BreechLoading<br>Percussion Cap                                       | GGCW     |                  |                 |          |
+|           Springfield M1863           | CGF1_MWP_Springfield_M1863_          | .58                  | MuzzleLoading<br>PercussionCap                                        | GGCW     |                  |                 |          |
+|       Winchester 1866 YellowBoy       | Gun_1866_winchester                  | .44Henry             | Metallic_Cartridge<br>Lever_Action<br>PercussionCap                   | VWF      |                  |                 |          |
+|     Spencer_Repeating_Rifle 1871      | CE_Gun_SpencerRifle                  | .56-56Spencer        | BreechLoading<br>Percussion Cap<br>Metallic_Cartridges<br>LeverAction | CECow    | Gunsmithing      | FrontierRifleT2 |          |
+|        Winchester_1873_Trapper        | CE_Gun_WinchesterModel1873C          | .44-40               | Metallic_Cartridge<br>Lever_Action<br>PercussionCap                   | CECow    | Gunsmithing      | FrontierRifleT2 |          |
+|      Springfield_Trapdoor_M1873       | CE_Gun_SpringfieldTrapDoorModel1873R | .45-70               | BreechLoading2<br>Metallic_Cartridge<br>                              | CECow    | Gunsmithing      | FrontierRifleT2 |          |
+|              Sharps 1874              |                                      |                      |                                                                       | WWF      |                  | FrontierRifleT2 |          |
+|        Remington 1875 Carbine         |                                      | .44-40               |                                                                       | CECow    |                  |                 |          |
+|             Evans Carbine             | CE_Gun_NewModelEvansCarbineC         | .44-40               |                                                                       | CECow    | Gunsmithing      | FrontierRifleT2 |          |
+|     Whitney-Burgess Carbine 1878      | CE_Gun_Whitney-Burgess               | .45-70               |                                                                       | CECow    | Gunsmithing      | FrontierRifleT2 |          |
+|      Winchester_1885_"High-Wall"      |                                      | .50-110              | Lever_Action<br>IndustrialAmmo                                        | WWF      |                  |                 |          |
+| Winchester_1885_"High-Wall"<br>Sniper |                                      | .50-110              | Lever_Action<br>IndustrialAmmo                                        | WWF      |                  |                 |          |
+|            Winchester 1886            | Gun_1886_winchester                  | .45-70               |                                                                       | WWF      | Gunsmithing      | FrontierRifleT2 |          |
+|            Winchester 1886            | CE_Gun_WinchesterModel1886C          | .45-70               |                                                                       | CECow    | Gunsmithing      | FrontierRifleT2 |          |
+|        Winchester 1886 Express        | CE_Gun_WinchesterModel1886D          | .50-110              |                                                                       | CECow    | Gunsmithing      | FrontierRifleT2 |          |
+|       Winchester_1892_'ElTigre'       |                                      | .44.-40              |                                                                       |          |                  |                 |          |
+|        Krags-JorgensenRifle_US        |                                      |                      |                                                                       | WWF      |                  |                 |          |
+|         1892KragMagnumHunter          | Antique_1829Krag                     | .300Winchester       |                                                                       | CEAF     | PrecisionRifling | FrontierRifleT1 |          |
+|             Marlin 1894c              | CE_Gun_Aug_Marlin                    | .357 / .38SP         |                                                                       | CE357    | Gunsmithing      | FrontierRifleT2 |          |
+|            Winchester 1894            |                                      |                      |                                                                       | CEGuns   |                  |                 |          |
+|            Winchester 1895            |                                      | .30-40Krag<br>.30-06 |                                                                       | WWF      |                  |                 |          |
+|        Winchester1895_RU_short        | CE_Gun_Win1895b                      | 7.62x54mmR           |                                                                       | CZAR     | Gunsmithing      | FrontierRifleT3 |          |
+|           Winchester1895_RU           | CE_Gun_Win1895a                      | 7.62x54mmR           |                                                                       | CZAR     | Gunsmithing      | FrontierRifleT3 |          |
+|             Martini Henry             | Antique_Martini                      | .577/450             |                                                                       | CEAF     | Gunsmithing      | FrontierRifleT2 |          |
+|             2-Bore Musket             | CE_Gun_2BoreMusket                   | 2Bore                | Large_Caliber<br>MuzzleLoading                                        | 2bore    | Machining        | FrontierRifleT2 |          |
+|              ElephantGun              | Antique_ElephantGun                  | .600 Nitro           | Large_Caliber<br>Breech_Loading                                       | CEAF     | Gunsmithing      | FrontierRifleT1 |          |
+|           Whitworth_Sniper            | CE_Gun_Whitworth                     | .451                 | Muzzle_Loading<br>Simple_Scopes                                       | BPRif    | Stage1Rifle_BP   | FrontierSniper  | Sniper   |
+|       SharpsBuffaloRifle_Sniper       | Antique_Sharps                       | .45-70               | Simple_Scope<br>Metallic_Cartridge                                    | CEAF     | Gunsmithing      | FrontierSniper  | Sniper   |
+|       SharpsBuffaloRifle_Sniper       | CE_Sharps_45120a                     | .45-120              | Simple_Scope<br>Metallic_Cartridge                                    | CECow    | Gunsmithing      | FrontierSniper  | Sniper   |
+|           ElephantGunSniper           | Antique_ElephantGunScope             | .600 Nitro           | Large_Caliber<br>Simple_Scope                                         | CEAF     | Gunsmithing      | FrontierSniper  | Sniper   |
+|          Winchester1886_exp           | CE_Gun_WinchesterModel1886D          | .50-110              | Lever_Action<br>Lenses<br>High-Caliber<br>Metallic Cartridge          | CECow    | Gunsmithing      | FrontierSniper  | Sights   |
+|               Wall Gun                |                                      |                      |                                                                       | CEArmory |                  |                 |          |
+|           Belgium Wall Gun            | CE_Gun_BelWallGun                    | .75Hex               | Breach_Loading<br>Large_Caliber                                       | BPRif    | Stage2Rifle_BP   | FrontierAM      | Bipod    |
+|              Gana-Krnka               | CE_Gun_Krip_GanaKrnka                | .203x95R             | High_Caliber                                                          | CZAR     | Gunsmithing      | FrontierAM      |          |
+|             Savage M1895              |                                      | .303Savage           |                                                                       | WWF      |                  |                 |          |
+|          Double-Barrel Rifle          |                                      | .600NitroExpress     |                                                                       | WWF      |                  |                 |          |
+|             Ball Carbine              |                                      |                      |                                                                       | CECow    |                  |                 |          |
+|          TrapperRifleCarbine          |                                      |                      |                                                                       | CECow    |                  |                 |          |
 ###### Early Shotguns
 
-| Gun                  | Tag               | Mod   | Defname                      | Caliber  | Research    | GRO |
-| -------------------- | ----------------- | ----- | ---------------------------- | -------- | ----------- | --- |
-| Double Barrel        |                   |       |                              |          |             |     |
-| ColtRevolvingShotgun | FrontierShotgunT1 | BPRev | CE_Gun_ColtShotgun           | .20gauge | Stage1R_BP  |     |
-| Stevens 1877         | FrontierShotgunT1 | CECow | CE_Gun_Double-barrelStevens  | .10gauge | Gunsmithing |     |
-| HNR 348 Bolt-Action  | FrontierShotgunT1 | CEAF  | Antique_BoltShotgun_sling    | .12gauge | Gunsmithing |     |
-| Winchester 1887      | FrontierShotgunT2 | CECow | CE_Gun_WinchesterModel1887SG | .10gauge | Gunsmithing |     |
-|                      |                   |       |                              |          |             |     |
+| Gun                    | Tag               | Mod   | Defname                      | Caliber  | Research    | GRO |
+| ---------------------- | ----------------- | ----- | ---------------------------- | -------- | ----------- | --- |
+| Double Barrel          |                   |       |                              |          |             |     |
+| Coach-Gun              |                   | WWF   |                              | .12Gauge |             |     |
+| ColtRevolvingShotgun   | FrontierShotgunT1 | BPRev | CE_Gun_ColtShotgun           | .20gauge | Stage1R_BP  |     |
+| Stevens 1877           | FrontierShotgunT1 | CECow | CE_Gun_Double-barrelStevens  | .10gauge | Gunsmithing |     |
+| Sharps 1882 Shotgun    |                   | WWF   |                              |          |             |     |
+| HNR 348 Bolt-Action    | FrontierShotgunT1 | CEAF  | Antique_BoltShotgun_sling    | .12gauge | Gunsmithing |     |
+| Winchester 1887        | FrontierShotgunT2 | CECow | CE_Gun_WinchesterModel1887SG | .10gauge | Gunsmithing |     |
+| Colt_DoubleBarrel_1892 |                   | WWF   |                              |          |             |     |
 ###### Early Projectiles
 
 | Gun            | Tag          | Mod     | Defname               | Caliber | Research     | GRO |
@@ -163,11 +177,11 @@
 |           Gun            | Tag             | Mod     | Defname                       | Caliber              | Research          | GRO | Remarque           |
 | :----------------------: | --------------- | ------- | ----------------------------- | -------------------- | ----------------- | --- | ------------------ |
 |     Colt Peacemaker      | IndustrialGunT1 | CECow   | CE_Gun_ColtSingleActionArmy1P | .45Colt              |                   |     |                    |
+|    S&W_Model3_Russian    | IndustrialGunT1 | CZAR    | CE_Gun_SWModel3Rus            | .44 Russian          | Gunsmithing       |     |                    |
 |       Nagant M1895       | IndustrialGunT1 | CZAR    | CE_Gun_NagantM1895a           | 7.62x38mmR           | Gunsmithing       |     |                    |
 |       NagantM1895B       | IndustrialGunT1 | CZAR    | CE_Gun_NagantM1895b           | 7.62x38mmR           | Gunsmithing       |     | Suppressor         |
 |          FN1900          | IndustrialGunT1 | CZAR    | CE_Gun_FN1900a                | .32ACP               | BlowbackOperation |     |                    |
 |     SchwarzloseM1898     | IndustrialGunT1 | CZAR    | CE_Gun_KripSchwarzloseM1898a  | 7.63x25Mauser        | BlowbackOperation |     |                    |
-|    S&W_Model3_Russian    | IndustrialGunT1 | CZAR    | CE_Gun_SWModel3Rus            | .44 Russian          | Gunsmithing       |     |                    |
 |        Mauser C96        |                 | GGINDUS |                               |                      |                   |     |                    |
 |        Mauser C96        |                 | GGAXIS  |                               |                      |                   |     |                    |
 |        Mauser C96        |                 | WWE     |                               |                      |                   |     |                    |
@@ -292,13 +306,14 @@ ___________________________________
 |        Gewehr_88        |                 | GGAXIS    |                        |            |                   |     |           |
 |   Krag-Jorgensen1889    |                 |           |                        |            |                   |     |           |
 |      Carcano M1891      |                 | GGAXIS    |                        |            |                   |     |           |
+|   Krags_Jorgensen_DAN   |                 | CESCAND   |                        |            |                   |     |           |
 |    Krag_Jorgensen_US    |                 | WWE       |                        |            |                   |     |           |
 |          Mosin          |                 |           |                        |            |                   |     |           |
 |     Arisaka Type 30     | IndustrialBR_T1 | CZAR      | CE_Gun_Krip_Arisaka30a | 6.5x50mm   | Gunsmithing       |     |           |
 |      Mauser M1898       |                 | GGAXIS    |                        |            |                   |     |           |
 |     Fusil Berthier      |                 | WWE       |                        |            |                   |     |           |
 |    Springfield M1903    |                 | CEArmory  |                        |            |                   |     |           |
-|       Mannlicher        |                 | WWE       |                        |            |                   |     |           |
+|      SapperEnfield      | IndustrialBR_T1 | CE+1H     | CE_Gun_SapperEnfield   | .303       | Gunsmithing       |     | onehanded |
 |       Mannlicher        |                 | GGAXIS    |                        |            |                   |     |           |
 |     Mondragon 1908      |                 | GGAXIS    |                        |            |                   |     |           |
 |        Gewehr_98        |                 | GGAXIS    |                        |            |                   |     |           |
@@ -306,7 +321,6 @@ ___________________________________
 |      Gewehr_88/14       |                 | GGAXIS    |                        |            |                   |     |           |
 |         Kar_98          |                 | GG_AXIS   |                        |            |                   |     |           |
 |    Springfield M1917    |                 | CEArmory  |                        |            |                   |     |           |
-|      SapperEnfield      | IndustrialBR_T1 | CE+1H     | CE_Gun_SapperEnfield   | .303       | Gunsmithing       |     | onehanded |
 |        M1 Garand        |                 | CEArmory  |                        |            |                   |     |           |
 |        M1 Garand        |                 | GGUSCW    |                        |            |                   |     |           |
 |    M1_Garand_Scoped     |                 | GGUSCW    |                        |            |                   |     |           |
@@ -318,6 +332,7 @@ ___________________________________
 |         SVT-40          | IndustrialBR_T1 | CZAR      | CE_Gun_SVT40a          | 7.62x54mmR | GasOperation      |     |           |
 |        SVT-40PU         | IndustrialBR_T1 | CZAR      | CE_Gun_SVT40b          | 7.62x54mmR | GasOperation      |     | scope     |
 |         AVS-36          | IndustrialBR_T1 | CZAR      | CE_Gun_Krip_AVS        | 7.62x54mmR | GasOperation      |     |           |
+|                         |                 |           |                        |            |                   |     |           |
 ___________________
 ###### Sniper Rifles
 |       Gun        | Tag                | Mod  | Defname                | Caliber    | Research                          | GRO | Remarque          |
